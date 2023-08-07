@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(200, 191, 231);
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-information {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.personal-information-text {
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.personal-information-photo {
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.slider {
+  width: 100px;
+  height: 140px;
+
+
+}
+
+.slider img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
+
+
+.name {
+  font-size: large;
+}
+
+.information {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.information-box {
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+  font-size: medium;
+  background-color: purple;
+  border-radius: 30px;
+}
+
+.skills {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.skill {
+  background-color: purple;
+  border-radius: 30px;
+  padding: 5px;
+  height: 20px;
+
+}
+
+.information-text {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.exp {
+  display: flex;
+  padding-top: 10px;
+}
+
+.exp-text {
+  display: flex;
+  padding-left: 10px;
+  align-self: center;
+}
+
+.information-text-showorhide {
+
+  display: none;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.information-skill {
+  display: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box-showorhide {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.weibu {
+  padding: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}

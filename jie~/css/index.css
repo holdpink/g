@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.head-part {
+  background-color: crimson;
+  height: 140px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  background-color: blueviolet;
+  height: 40px;
+}
+
+.body-part {
+  display: flex;
+  background-color: aqua;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.left-part {
+  background-color: goldenrod;
+  width: 100px;
+}
+
+.main-part {
+  background-color: greenyellow;
+}
+
+.right-part {
+  background-color: blue;
+  width: 200px;
+}

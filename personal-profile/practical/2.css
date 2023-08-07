@@ -1,0 +1,10 @@
+.container {
+  width: 100px;
+  text-align: center;
+}
+.item1 {
+  border-style: hidden hidden solid hidden;
+}
+.item2 {
+  display: none;
+}
