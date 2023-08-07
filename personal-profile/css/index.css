@@ -1,15 +1,21 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: auto;
+  padding: auto;
   border: 0px;
+
 }
 
 body {
   height: 100vh;
+  max-width: 700px;
   background-color: rgb(200, 191, 231);
   font-size: small;
+}
+
+.main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .personal-information {
