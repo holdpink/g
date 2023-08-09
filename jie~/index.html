@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./css/1.css"
   </head>
+
   <body>
     <div class="head-part">
       <div class="card">
@@ -42,31 +43,63 @@
       <div class="top-bar"></div>
     </div>
     <div class="body-part">
-      <div class="left-part">1</div>
-      <div class="main-part">2</div>
-      <div class="right-part">3</div>
+      <div class="left-part">
+        <div class="left-part-option">漫画</div>
+        <div class="left-part-option">游戏</div>
+        <div class="left-part-option">展示框</div>
+      </div>
+      <div class="main-part">
+        <iframe
+          src="./html/1.html"
+          title="展示框"
+          name="showframe"
+          width="200px"
+          height="150px"
+        ></iframe>
+        <p>
+          <a
+            href="./html/1.html"
+            target="showframe"
+            >3D旋转卡片头像</a
+          >
+        </p>
+        <p>
+          <a
+            href="./html/2.html"
+            target="showframe"
+            >伸缩式导航栏</a
+          >
+        </p>
+      </div>
+      <div class="right-part">
+        <div class="user-part">
+          <div class="user-part-wrapper">
+            <div class="user-part-data">
+              <input title="userName" />
+              <div class="underline"></div>
+              <label>请输入账号</label>
+            </div>
+          </div>
+          <div class="user-part-wrapper">
+            <div class="user-part-data">
+              <input title="passWord" />
+              <div class="underline"></div>
+              <label>请输入密码</label>
+            </div>
+          </div>
+          <div class="user-part-login">
+            <a href="">注册</a>
+            <button
+              title="login"
+              type="submit"
+            >
+              登录
+            </button>
+          </div>
+          <div>提示盒子</div>
+        </div>
+        <div></div>
+      </div>
     </div>
-
-    <!-- <iframe
-      src="./html/1.html"
-      title="展示框"
-      name="showframe"
-      width="400px"
-      height="500px"
-    ></iframe>
-    <p>
-      <a
-        href="./html/1.html"
-        target="showframe"
-        >3D旋转卡片头像</a
-      >
-    </p>
-    <p>
-      <a
-        href="./html/2.html"
-        target="showframe"
-        >伸缩式导航栏</a
-      >
-    </p> -->
   </body>
 </html>
